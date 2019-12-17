@@ -181,6 +181,15 @@ a:active {
 }
 
 
+/*BUTIK*************************/
+
+#butik .sectionwrapper {
+    display: flex;
+
+}
+
+
+
 /* MENU 4 DESKTOP OG TABLET***********************
 
 @media screen and (min-width: 768px) {
