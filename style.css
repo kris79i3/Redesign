@@ -15,6 +15,10 @@ img {
     width: 100%;
 }
 
+video {
+    width: 100%;
+}
+
 /*BURGER MENU*************************************/
 /*#logo_background {
     background-color: white;
@@ -148,11 +152,7 @@ a:active {
 
 /*FORSIDE ***************************************/
 
-.splash video {
-    width: 100%;
 
-
-}
 
 #forside .txt {
 
@@ -181,6 +181,8 @@ a:active {
 }
 
 
+<<<<<<< HEAD
+=======
 /*BUTIK*************************/
 
 #butik .sectionwrapper {
@@ -210,6 +212,7 @@ a:active {
     flex-grow: 1;
     flex-basis: 300px;
 }
+>>>>>>> origin/master
 
 
 
