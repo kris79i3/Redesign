@@ -15,6 +15,10 @@ img {
     width: 100%;
 }
 
+video {
+    width: 100%;
+}
+
 /*BURGER MENU*************************************/
 /*#logo_background {
     background-color: white;
@@ -148,11 +152,7 @@ a:active {
 
 /*FORSIDE ***************************************/
 
-.splash video {
-    width: 100%;
 
-
-}
 
 #forside .txt {
 
@@ -179,6 +179,9 @@ a:active {
 #forside .bottom {
     padding-bottom: 5vw;
 }
+
+
+
 
 
 /* MENU 4 DESKTOP OG TABLET***********************
