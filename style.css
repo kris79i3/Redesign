@@ -1,0 +1,212 @@
+/* GENERELT *************************************/
+
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+}
+
+p {
+
+    color: #7c7c7c;
+
+}
+
+img {
+    width: 100%;
+}
+
+/*BURGER MENU*************************************/
+/*#logo_background {
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+} */
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    /*  position: fixed;
+    transition: 0.2s;*/
+
+}
+
+.hidden {
+    /*  transform: translateX(-100);**/
+    visibility: hidden;
+}
+
+#menuknap {
+    position: fixed;
+    display: inline-block;
+    height: 5vw;
+    width: 5vw;
+    background-image: url(billeder/burger.svg);
+    background-size: cover;
+    top: 2vw;
+    left: 2vw;
+    z-index: 1;
+}
+
+
+
+.menu_background {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 8px #acacac;
+    top: 0vw;
+    left: 0vw;
+    height: 40vw;
+    width: 22vw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+nav ul {
+    height: 40vw;
+    width: 22vw;
+    position: fixed;
+
+}
+
+nav li {
+    padding-left: 3vw;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding-bottom: 4vw;
+    font-size: 2.7vw;
+}
+
+a:link {
+    text-decoration: none;
+    color: #C8C1B7;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #C8C1B7;
+}
+
+a:hover {
+    color: #7c7c7c;
+}
+
+a:active {
+    color: #7c7c7c;
+}
+
+.closed {
+    animation-name: close_kf;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+
+}
+
+@keyframes close_kf {
+    0% {
+        background-image: url(billeder/cross.svg);
+
+    }
+
+    100% {
+        background-image: url(billeder/burger.svg);
+    }
+}
+
+
+.open {
+    animation-name: open_kf;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    /*    background-image: url(burger.svg);*/
+
+}
+
+@keyframes open_kf {
+    /*
+    0% {
+
+        background-image: url(burger.svg);
+    }
+*/
+
+    100% {
+        background-image: url(billeder/cross.svg);
+    }
+
+}
+}
+
+
+
+
+/*FORSIDE ***************************************/
+
+.splash video {
+    width: 100%;
+
+
+}
+
+#forside .txt {
+
+    font-size: 3vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 7vw;
+}
+
+
+
+#forside .col {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    align-content: space-between;
+}
+
+#forside .top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#forside .bottom {
+    padding-bottom: 5vw;
+}
+
+
+/* MENU 4 DESKTOP OG TABLET***********************
+
+@media screen and (min-width: 768px) {
+
+    nav {
+        font-family: 'Muli', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.1vw;
+        padding-bottom: 1vw;
+
+
+    }
+
+    .nlogo {
+        height: 11vw;
+    }
+
+    a {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+
+
+}
+
+
+*/
