@@ -15,6 +15,10 @@ img {
     width: 100%;
 }
 
+video {
+    width: 100%;
+}
+
 /*BURGER MENU*************************************/
 /*#logo_background {
     background-color: white;
@@ -148,11 +152,7 @@ a:active {
 
 /*FORSIDE ***************************************/
 
-.splash video {
-    width: 100%;
 
-
-}
 
 #forside .txt {
 
@@ -179,6 +179,41 @@ a:active {
 #forside .bottom {
     padding-bottom: 5vw;
 }
+
+
+<<<<<<< HEAD
+=======
+/*BUTIK*************************/
+
+#butik .sectionwrapper {
+    /*
+    display: flex;
+    flex-wrap: wrap;
+*/
+}
+
+#butik .col {
+    /*    flex-direction: row;*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#butik .col:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#butik .billede {
+    flex-grow: 2;
+    flex-basis: 600px;
+}
+
+#butik .tekst {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+>>>>>>> origin/master
+
 
 
 /* MENU 4 DESKTOP OG TABLET***********************
