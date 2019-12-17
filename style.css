@@ -184,8 +184,31 @@ a:active {
 /*BUTIK*************************/
 
 #butik .sectionwrapper {
+    /*
     display: flex;
+    flex-wrap: wrap;
+*/
+}
 
+#butik .col {
+    /*    flex-direction: row;*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#butik .col:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#butik .billede {
+    flex-grow: 2;
+    flex-basis: 600px;
+}
+
+#butik .tekst {
+    flex-grow: 1;
+    flex-basis: 300px;
 }
 
 
