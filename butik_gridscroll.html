@@ -1,99 +1,85 @@
-<!DOCTYPE html>
-<html lang="da">
+    <!DOCTYPE html>
+    <html lang="da">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Butik kategorier</title>
-    <link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Butik Scroll</title>
+        <link rel="stylesheet" href="style.css">
 
+        <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,700&display=swap" rel="stylesheet">
+    </head>
 
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,700&display=swap" rel="stylesheet">
-</head>
+    <body>
+        <header>
 
-<body>
+            <nav>
+                <div id="menuknap"></div>
+                <div id="menu" class="hidden">
+                    <div id="menu_background" class="menu_background">
 
-    <header>
-
-        <nav>
-            <div id="menuknap"></div>
-            <ul id="menu" class="hidden">
-                <div id="menu_background" class="menu_background">
-
-                    <div class="menu_left">
-                        <li><a href="kollektion.html">Kollektion</a></li>
-                        <li><a href="butik.html">Butik</a></li>
-                    </div>
+                        <div class="menu_left">
+                            <li><a href="kollektion.html">Kollektion</a></li>
+                            <li><a href="butik.html">Butik</a></li>
+                        </div>
 
 
 
-                    <div class="menu_right">
-                        <li><a href="om.html">Om</a></li>
-                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <div class="menu_right">
+                            <li><a href="om.html">Om</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                        </div>
                     </div>
                 </div>
-            </ul>
-        </nav>
-        <div id="logo_background">
-            <a href="index.html"><img src="billeder/logo.svg" title="Forside" alt="logo test" class="logo"></a>
-        </div>
+            </nav>
 
-        <div class="cart">
-            <img src="billeder/cart.svg" alt="shopping cart">
-        </div>
-    </header>
 
-    <!---https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
-
-     https://codepen.io/andybarefoot/pen/ypXYVJ
-
-     https://stackoverflow.com/questions/23156598/images-gird-layout-with-horizontal-scroll
-      --->
-
-    <section id="butik_gridscroll">
-
-        <div class="gallery">
-            <div class="layout">
-
-                <img src="billeder/gridscroll_01.png" style="width:100%">
-                <img src="billeder/gridscroll_02.png" style="width:100%">
-                <img src="billeder/gridscroll_03.png" style="width:100%">
-                <img src="billeder/gridscroll_04.jpg" style="width:100%">
-                <img src="billeder/gridscroll_05.jpg" style="width:100%">
-
+            <div id="logo_background">
+                <a href="index.html"><img src="billeder/logo.svg" title="Forside" alt="logo test" class="logo"></a>
             </div>
 
-            <div class="layout">
-
-                <img src="billeder/gridscroll_01.png" style="width:100%">
-                <img src="billeder/gridscroll_02.png" style="width:100%">
-                <img src="billeder/gridscroll_03.png" style="width:100%">
-                <img src="billeder/gridscroll_04.jpg" style="width:100%">
-                <img src="billeder/gridscroll_05.jpg" style="width:100%">
-
+            <div class="cart">
+                <img src="billeder/cart.svg" alt="shopping cart">
             </div>
-            <!--
-            <div class="layout">
+        </header>
 
-                <img src="billeder/gridscroll_01.png" style="width:100%">
-                <img src="billeder/gridscroll_02.png" style="width:100%">
-                <img src="billeder/gridscroll_03.png" style="width:100%">
-                <img src="billeder/gridscroll_04.jpg" style="width:100%">
-                <img src="billeder/gridscroll_05.jpg" style="width:100%">
+        <section id="butik_gridscroll">
 
+            <div class="gallery">
+                <div class="layout">
+
+                    <img src="billeder/gridscroll_01.png" style="width:100%" alt="billede">
+                    <img src="billeder/gridscroll_02.png" style="width:100%" alt="billede">
+                    <img src="billeder/gridscroll_03.png" style="width:100%" alt="billede">
+                    <img src="billeder/gridscroll_04.jpg" style="width:100%" alt="billede">
+                    <img src="billeder/gridscroll_05.jpg" style="width:100%" alt="billede">
+
+                </div>
+
+                <div class="layout">
+
+                    <img src="billeder/gridscroll_01.png" style="width:100%" alt="billede">
+                    <img src="billeder/gridscroll_02.png" style="width:100%" alt="billede">
+                    <img src="billeder/gridscroll_03.png" style="width:100%" alt="billede">
+                    <img src="billeder/gridscroll_04.jpg" style="width:100%" alt="billede">
+                    <img src="billeder/gridscroll_05.jpg" style="width:100%" alt="billede">
+
+                </div>
+
+                -->
             </div>
--->
-        </div>
-        <<<<<<< HEAD <footer><img src="billeder/facebook.png" alt="facebook icon" class="facebook">
-            <img src="billeder/instagram.svg" alt="instagramicon" class="instagram">
-            <small>&copy; Copyright 2019, Christian Bruun CPH</small></footer>
-            =======
-            <footer></footer>
-            >>>>>>> origin/master
-    </section>
+            <footer><img src="billeder/facebook.png" alt="facebook icon" class="facebook">
+                <img src="billeder/instagram.svg" alt="instagramicon" class="instagram">
+                <small>&copy; Copyright 2019, Christian Bruun CPH</small></footer>
+
+
+
+        </section>
 
 
 
 
-    <script src="script.js"></script>
-</body></html>
+        <script src="script.js"></script>
+    </body>
+
+    </html>
