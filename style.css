@@ -166,13 +166,18 @@ a:active {
 #forside .col {
     padding-left: 5vw;
     padding-right: 5vw;
+    display: flex;
+    flex-wrap: nowrap;
+
     align-content: space-between;
+    flex-direction: column;
 }
 
 #forside .top {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
+
+    /* justify-content: center; */
 }
 
 #forside .bottom {
@@ -209,6 +214,7 @@ a:active {
     padding: 15px;
 }
 
+
 #butik .overlay {
     position: absolute;
     display: none;
@@ -225,6 +231,7 @@ a:active {
     text-align: center;
     text-transform: uppercase;
 }
+
 
 #butik .billede:hover .overlay {
     display: block;

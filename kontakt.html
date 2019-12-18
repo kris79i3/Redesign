@@ -7,6 +7,7 @@
     <title>Kontakt</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="hannah.css">
+    <link rel="stylesheet" href="bertram.css">
 
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,700&display=swap" rel="stylesheet">
 </head>
@@ -14,31 +15,78 @@
 <body>
 
     <header>
+
         <nav>
             <div id="menuknap"></div>
             <ul id="menu" class="hidden">
-                <div class="menu_background">
-                    <li><a href="kollektion.html">Kollektion</a></li>
-                    <li><a href="butik.html">Butik</a></li>
-                    <li><a href="om.html">Om</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
+                <div id="menu_background" class="menu_background">
+
+                    <div class="menu_left">
+                        <li><a href="kollektion.html">Kollektion</a></li>
+                        <li><a href="butik.html">Butik</a></li>
+                    </div>
+
+
+
+                    <div class="menu_right">
+                        <li><a href="om.html">Om</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </div>
                 </div>
             </ul>
-        </nav><div id="logo_background">
-    <a href="index.html"><img src="billeder/logo.svg" title="Forside" alt="logo test" class="logo"></a>
-</div>
-</header>
+        </nav>
+        <div id="logo_background">
+            <a href="index.html"><img src="billeder/logo.svg" title="Forside" alt="logo test" class="logo"></a>
+        </div>
+
+        <div class="cart">
+            <img src="billeder/cart.svg" alt="shopping cart">
+        </div>
+    </header>
+
+    <section #kontakt>
+        <div class="col">
+            <div class="billede_text">
+                <h1>Værksted og galleri</h1>
+
+                <img src="http://lorempixel.com/400/300/animals">
+            </div>
+
+            <div class="maps">
+                <p>Åbent fredage 12-17</p>
+                <p>Tavbanevej 12, 2920 Charlottenlund</p>
+                <p>Tlf: 29661565</p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71889.38836548553!2d12.521436799999996!3d55.731687099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465251a6bb5ad153%3A0x2092c1eab6dc64d9!2sChristian%20Bruun%20Cph!5e0!3m2!1sen!2sdk!4v1576579708834!5m2!1sen!2sdk" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+
+        </div>
+        <div class="col">
+
+            <div class="form">
+                <form action="welcome.php" method="post">
+                    <label for="navn">Navn</label>
+
+                    <input type="text" id="navn" name="navn" placeholder="Dit navn...">
+
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email" placeholder="Din e-mail...">
+
+                    <label for="besked">Besked</label>
+                    <textarea id="besked" name="besked" placeholder="Skriv din besked her..."> </textarea> </form>
+                <input type="submit" value="Send">
+            </div>
+
+            <div class="nyhedsbrev">
 
 
-<form action="welcome.php" method="post">
-    Navn: <input type="text" name="navn"><br>
-    E-mail: <input type="text" name="email"><br>
-    <input type="text" name="textbox"><br>
-    <input type="submit">
-    </form>
 
+            </div>
+
+        </div>
+        <footer></footer>
+    </section>
 
     <script src="script.js"></script>
-</body>
 
-</html>
+</body></html>
