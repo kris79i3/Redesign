@@ -118,7 +118,11 @@ input[type=submit]:hover {
     }
 
     .cart {
-        visibility: hidden;
+        height: 1.5vw;
+        width: 1.5vw;
+        position: absolute;
+        top: 10.8vw;
+        right: 18vw;
     }
 
 
@@ -226,7 +230,9 @@ input[type=submit]:hover {
         text-align: center;
     }
 
-
+    #kontakt img {
+        width: 50%
+    }
 
     iframe {
         width: 100%;
