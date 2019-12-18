@@ -221,7 +221,6 @@ a:active {
     font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
-    vertical-align: middle;
 }
 
 #butik .billede:hover .overlay {
