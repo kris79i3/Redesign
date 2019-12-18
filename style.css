@@ -181,16 +181,8 @@ a:active {
 }
 
 
-<<<<<<< HEAD
-=======
-/*BUTIK*************************/
 
-#butik .sectionwrapper {
-    /*
-    display: flex;
-    flex-wrap: wrap;
-*/
-}
+/*BUTIK*************************/
 
 #butik .col {
     /*    flex-direction: row;*/
@@ -212,8 +204,30 @@ a:active {
     flex-grow: 1;
     flex-basis: 300px;
 }
->>>>>>> origin/master
 
+#butik .billede {
+    position: relative;
+}
+
+#butik .overlay {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+#butik .billede:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+}
 
 
 /* MENU 4 DESKTOP OG TABLET***********************
