@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forside</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hannah.css">
+    <link rel="stylesheet" href="Bertram.css">
+
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,700&display=swap" rel="stylesheet">
 </head>
 
@@ -18,25 +21,38 @@
         <nav>
             <div id="menuknap"></div>
             <ul id="menu" class="hidden">
-                <div class="menu_background">
-                    <li><a href="kollektion.html">Kollektion</a></li>
-                    <li><a href="butik.html">Butik</a></li>
-                    <li><a href="om.html">Om</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
+                <div id="menu_background" class="menu_background">
+
+                    <div class="menu_left">
+                        <li><a href="kollektion.html">Kollektion</a></li>
+                        <li><a href="butik.html">Butik</a></li>
+                    </div>
+
+
+
+                    <div class="menu_right">
+                        <li><a href="om.html">Om</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </div>
                 </div>
             </ul>
         </nav>
         <div id="logo_background">
             <a href="index.html"><img src="billeder/logo.svg" title="Forside" alt="logo test" class="logo"></a>
         </div>
+
+        <div class="cart">
+            <img src="billeder/cart.svg" alt="shopping cart">
+        </div>
+
     </header>
 
 
     <section id="forside">
 
         <div class="splash">
-            <video>
-                <source src="billeder/video_test.mp4" type="video/mp4">
+            <video autoplay loop muted>
+                <source src="billeder/banner.mp4" type="video/mp4">
             </video>
 
         </div>
@@ -85,9 +101,15 @@
             </div>
         </div>
 
+
+        <footer>
+            <img src="billeder/facebook.png" alt="facebook icon" class="facebook">
+            <img src="billeder/instagram.svg" alt="instagramicon" class="instagram">
+            <small>&copy; Copyright 2019, Christian Bruun CPH</small>
+        </footer>
     </section>
 
-    <footer></footer>
+
     <script src="script.js"></script>
 
 </body>

@@ -1,3 +1,28 @@
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* CART ************************/
+
+.cart {
+    position: fixed;
+    top: 2vw;
+    right: 2vw;
+    width: 6vw;
+    height: 6vw;
+    opacity: 90%;
+}
+
+
+
 /* OM **************************/
 h1 {
     color: #767676;
@@ -67,4 +92,211 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+
+/*  MEDIA QUERY FOR FORSIDE DESKTOP ****************/
+
+@media screen and (min-width: 900px) {
+
+    /****************************** NAV *****/
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        position: relative;
+        /*  position: fixed;
+    transition: 0.2s;*/
+
+    }
+
+
+
+    #menuknap {
+        visibility: hidden;
+    }
+
+    .cart {
+        visibility: hidden;
+    }
+
+
+    #menu {
+
+        position: absolute;
+        width: 100%;
+        height: 3vw;
+        top: 9.8vw;
+
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .menu_left {
+        position: absolute;
+        left: 15.5vw;
+    }
+
+    .menu_right {
+        position: absolute;
+        right: 23vw;
+    }
+
+
+
+
+    nav li {
+
+        text-decoration-line: none;
+        text-transform: uppercase;
+        list-style-type: none;
+        font-size: 1.5vw;
+
+        float: left;
+
+
+
+    }
+
+    /******************************FORSIDE*****/
+    .splash {
+        position: relative;
+        bottom: 2vw;
+        padding-top: 1vw;
+    }
+
+    #forside .txt {
+
+        font-size: 1.2vw;
+        padding-right: 3vw;
+        padding-left: 3vw;
+        padding-bottom: 7vw;
+    }
+
+
+    #forside .sectionwrapper {
+        display: flex;
+        flex-wrap: nowrap;
+
+        align-content: space-between;
+        flex-direction: row;
+    }
+
+
+    #forside .col {
+
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 3vw;
+
+    }
+
+    #forside .top {
+        display: flex;
+        flex-wrap: wrap;
+
+
+
+    }
+
+    #forside .bottom {
+        padding-bottom: 5vw;
+        font-size: 1.5vw;
+    }
+
+
+    /****************************** OM *****/
+
+
+
+
+
+    /******************************KONTAKT*****/
+
+
+    #kontakt .col {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #kontakt h1 {
+        text-align: center;
+    }
+
+
+
+    iframe {
+        width: 100%;
+        padding-bottom: 5vw;
+
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #C8C1B7;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #C8C1B7;
+    }
+
+    .form {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+}
+
+
+/*** FOOOTER *********************/
+
+
+footer {
+    height: 7vw;
+    width: 100%;
+
+    background-color: #C8C1B7;
+    position: relative;
+    bottom: 0;
+
+}
+
+.facebook {
+    width: 5vw;
+    position: absolute;
+    right: 3vw;
+    bottom: 1vw;
+}
+
+.instagram {
+    width: 5vw;
+    position: absolute;
+    right: 10vw;
+    bottom: 1vw;
+}
+
+small {
+    position: absolute;
+    left: 2vw;
+    bottom: 2.5vw;
 }

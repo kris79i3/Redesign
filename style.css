@@ -167,13 +167,18 @@ a:active {
 #forside .col {
     padding-left: 5vw;
     padding-right: 5vw;
+    display: flex;
+    flex-wrap: nowrap;
+
     align-content: space-between;
+    flex-direction: column;
 }
 
 #forside .top {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
+
+    /* justify-content: center; */
 }
 
 #forside .bottom {
@@ -181,8 +186,7 @@ a:active {
 }
 
 
-<<<<<<< HEAD
-=======
+
 /*BUTIK*************************/
 
 #butik .sectionwrapper {
@@ -212,10 +216,8 @@ a:active {
     flex-grow: 1;
     flex-basis: 300px;
 }
->>>>>>> origin/master
 
-
-
+> > > > > > > origin/master
 /* MENU 4 DESKTOP OG TABLET***********************
 
 @media screen and (min-width: 768px) {
