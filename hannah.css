@@ -28,17 +28,17 @@ h1 {
     color: #767676;
 }
 
-#om .col {
+#om .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0vw;
 
 }
 
 #om .right .left {
 
-    padding-right: 5vw;
-    padding-left: 5vw;
+
     padding-bottom: 10vw;
 }
 
@@ -213,37 +213,107 @@ input[type=submit]:hover {
 
     /****************************** OM *****/
 
+    #om video {
+        padding: 7vw;
+    }
 
+    #om img {
+        width: 100%
+    }
+
+
+    #om .col_top {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    #om .right_top {
+        flex-basis: 500px;
+        flex-grow: 6;
+    }
+
+    #om .left_top {
+        flex-basis: 300px;
+        flex-grow: 2;
+    }
+
+    #om .col_bottom {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+    }
+
+
+    #om .right_bottom {
+        flex-basis: 500px;
+        flex-grow: 6;
+    }
+
+    #om .left_bottom {
+        flex-basis: 300px;
+        flex-grow: 2;
+    }
 
 
 
     /******************************KONTAKT*****/
 
 
-    #kontakt .col {
+
+
+    #kontakt_oppe {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        padding-bottom: 2vw;
     }
 
-    #kontakt h1 {
-        text-align: center;
+
+    .billede_tekst {
+        width: 100%;
+        flex-basis: 500px;
+        flex-grow: 1;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        font-size: 1.5vw;
+
     }
 
-    #kontakt img {
-        width: 50%
+
+
+    .maps {
+        position: relative;
+        top: 5vw;
+        flex-basis: 500px;
+        flex-grow: 1;
+        font-size: 1.5vw;
     }
 
     iframe {
         width: 100%;
-        padding-bottom: 5vw;
+        height: 28.8vw;
+        padding-right: 2vw;
+
+
 
     }
+
+    #kontakt_nede {
+        display: flex;
+
+        justify-content: center;
+        padding-bottom: 2vw;
+    }
+
+
+
 
     input[type=text],
     select,
     textarea {
         width: 100%;
+        height: 3vw;
         padding: 12px;
         border: 1px solid #ccc;
         border-radius: 4px;
@@ -253,8 +323,10 @@ input[type=submit]:hover {
         resize: vertical;
     }
 
-    input[type=submit] {
-        background-color: #C8C1B7;
+    input[type=text],
+    select,
+    textarea input[type=submit] {
+        background-color: white;
         color: white;
         padding: 12px 20px;
         border: none;
@@ -266,10 +338,22 @@ input[type=submit]:hover {
         background-color: #C8C1B7;
     }
 
+    .besked {
+        height: 11vw;
+
+    }
+
     .form {
+        position: relative;
+        left: 2vw;
+        width: 50vw;
+        height: 100%;
         border-radius: 5px;
         background-color: #f2f2f2;
         padding: 20px;
+
+
+
     }
 }
 
